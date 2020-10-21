@@ -1,0 +1,8 @@
+prefix=/home/trevor/ros_ws/install_isolated
+
+Name: baxter_description
+Description: Description of baxter_description
+Version: 1.2.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

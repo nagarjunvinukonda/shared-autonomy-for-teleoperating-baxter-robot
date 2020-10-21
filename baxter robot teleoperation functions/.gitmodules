@@ -1,0 +1,47 @@
+[submodule "src/baxter/baxter"]
+	path = src/baxter/baxter
+	url = https://github.com/RethinkRobotics/baxter.git
+	branch = development
+[submodule "src/baxter/baxter_examples"]
+	path = src/baxter/baxter_examples
+	url = https://github.com/RethinkRobotics/baxter_examples.git
+	branch = development
+[submodule "src/baxter/baxter_interface"]
+	path = src/baxter/baxter_interface
+	url = https://github.com/RethinkRobotics/baxter_interface.git
+	branch = development
+[submodule "src/baxter/baxter_tools"]
+	path = src/baxter/baxter_tools
+	url = https://github.com/RethinkRobotics/baxter_tools.git
+	branch = development
+[submodule "src/baxter/baxter_common"]
+	path = src/baxter/baxter_common
+	url = https://github.com/RethinkRobotics/baxter_common.git
+	branch = kinetic-devel
+[submodule "src/baxter/baxter_simulator"]
+	path = src/baxter/baxter_simulator
+	url = https://github.com/RethinkRobotics/baxter_simulator.git
+	branch = kinetic-devel
+[submodule "src/baxter/baxter_pykdl"]
+	path = src/baxter/baxter_pykdl
+	url = https://github.com/RethinkRobotics/baxter_pykdl.git
+	branch = master
+[submodule "src/roboteq"]
+	path = src/roboteq
+	url = https://github.com/g/roboteq.git
+	branch = master
+[submodule "src/reflex"]
+	path = src/reflex
+	url = https://github.com/OAkyildiz/reflex-ros-pkg.git
+	branch = master
+[submodule "src/hstar_amp"]
+	path = src/hstar_amp
+	url = https://bitbucket.com/OAkyildiz/hstar_amp.git
+	branch = master
+[submodule "src/dynamixel_motor"]
+	path = src/dynamixel_motor
+	url = https://github.com/RightHandRobotics/dynamixel_motor
+	branch = master
+[submodule "src/vicon_bridge"]
+	path = src/vicon_bridge
+	url = https://github.com/ethz-asl/vicon_bridge.git
