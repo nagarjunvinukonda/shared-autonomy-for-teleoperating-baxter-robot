@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/trevor/ros_ws/install_isolated/setup.sh

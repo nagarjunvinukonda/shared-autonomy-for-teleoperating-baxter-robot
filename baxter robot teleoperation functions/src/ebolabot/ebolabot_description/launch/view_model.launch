@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<launch>
+ <arg name="ebolabot_ns" default=""/>
+
+ <arg name="have_grippers" default="true"/>
+ <arg name="have_kinect" default="true"/>
+ <arg name="have_wristcams" default="true"/>
+
+  <include file="$(find ebolabot_description)/launch/description.launch">
+    <arg name="ebolabot_ns" value="$(arg ebolabot_ns)"/>
+
+    <arg name="have_grippers" value="$(arg have_grippers)" />
+    <arg name="have_kinect" value="$(arg have_kinect)" />
+    <arg name="have_wristcams" value="$(arg have_wristcams)" />
+  </include>
+
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <param name="use_gui" value="true"/>
+  </node>
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ebolabot_description)/rviz/ebolabot.rviz" />
+</launch>

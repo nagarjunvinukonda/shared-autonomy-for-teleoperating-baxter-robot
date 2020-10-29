@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/trevor/ros_ws/devel_isolated/ebolabot_bringup/setup.sh

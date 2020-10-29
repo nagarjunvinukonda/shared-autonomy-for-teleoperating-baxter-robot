@@ -1,0 +1,8 @@
+prefix=/home/trevor/ros_ws/install_isolated
+
+Name: dynamixel_driver
+Description: Description of dynamixel_driver
+Version: 0.4.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy diagnostic_msgs

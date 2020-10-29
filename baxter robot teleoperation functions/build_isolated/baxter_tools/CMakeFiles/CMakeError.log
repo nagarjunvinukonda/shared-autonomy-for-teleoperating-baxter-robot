@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/trevor/ros_ws/build_isolated/baxter_tools/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_108fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_108fb.dir/build.make CMakeFiles/cmTC_108fb.dir/build
+make[1]: Entering directory '/home/trevor/ros_ws/build_isolated/baxter_tools/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_108fb.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_108fb.dir/CheckSymbolExists.c.o   -c /home/trevor/ros_ws/build_isolated/baxter_tools/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_108fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_108fb.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_108fb.dir/CheckSymbolExists.c.o  -o cmTC_108fb -rdynamic 
+CMakeFiles/cmTC_108fb.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_108fb.dir/build.make:97: recipe for target 'cmTC_108fb' failed
+make[1]: *** [cmTC_108fb] Error 1
+make[1]: Leaving directory '/home/trevor/ros_ws/build_isolated/baxter_tools/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_108fb/fast' failed
+make: *** [cmTC_108fb/fast] Error 2
+
+File /home/trevor/ros_ws/build_isolated/baxter_tools/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/trevor/ros_ws/build_isolated/baxter_tools/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40216/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40216.dir/build.make CMakeFiles/cmTC_40216.dir/build
+make[1]: Entering directory '/home/trevor/ros_ws/build_isolated/baxter_tools/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40216.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_40216.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_40216
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40216.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_40216.dir/CheckFunctionExists.c.o  -o cmTC_40216 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_40216.dir/build.make:97: recipe for target 'cmTC_40216' failed
+make[1]: *** [cmTC_40216] Error 1
+make[1]: Leaving directory '/home/trevor/ros_ws/build_isolated/baxter_tools/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_40216/fast' failed
+make: *** [cmTC_40216/fast] Error 2
+
+

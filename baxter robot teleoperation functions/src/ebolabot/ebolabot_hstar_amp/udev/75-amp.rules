@@ -1,0 +1,7 @@
+KERNEL=="ttyACM*",KERNELS=="1-1.4.3",SYMLINK="ros/roboteq/front_left",MODE="0666"
+KERNEL=="ttyACM*",KERNELS=="1-1.4.4",SYMLINK="ros/roboteq/front_right",MODE="0666"
+KERNEL=="ttyACM*",KERNELS=="1-1.4.1",SYMLINK="ros/roboteq/back_left",MODE="0666"
+KERNEL=="ttyACM*",KERNELS=="1-1.4.2",SYMLINK="ros/roboteq/back_right",MODE="0666"
+KERNEL=="ttyACM*",KERNELS=="1-1.2.3",SYMLINK="ros/lcd",MODE="0666"
+KERNEL=="ttyACM*",KERNELS=="1-1.2.4",SYMLINK="ros/hokuyo/front_right",MODE="0666"
+KERNEL=="ttyACM*",KERNELS=="1-1.2.1",SYMLINK="ros/hokuyo/back_left",MODE="0666"

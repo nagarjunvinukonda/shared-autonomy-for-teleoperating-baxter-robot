@@ -1,0 +1,8 @@
+prefix=/home/trevor/ros_ws/install_isolated
+
+Name: baxter_sim_kinematics
+Description: Description of baxter_sim_kinematics
+Version: 1.2.12
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lbaxter_sim_kinematics
+Requires: std_msgs baxter_core_msgs gazebo_msgs sensor_msgs kdl_parser

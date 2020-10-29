@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/trevor/ros_ws/devel_isolated/baxter_sim_controllers/setup.sh

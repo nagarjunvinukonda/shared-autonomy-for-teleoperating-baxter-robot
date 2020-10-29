@@ -1,0 +1,8 @@
+prefix=/home/trevor/ros_ws/install_isolated
+
+Name: dynamixel_tutorials
+Description: Description of dynamixel_tutorials
+Version: 0.4.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: dynamixel_controllers

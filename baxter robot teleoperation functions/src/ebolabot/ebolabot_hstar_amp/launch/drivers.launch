@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="ns" default="amp_wpi" />
+	<arg name="with_joy" default="false" />
+	<param name ="hstar_ns" value="$(arg ns)"/> <!-- this way your code can extract it-->
+	<param name="$(arg ns)/robot_description" textfile="$(find hstar_amp)/robot_description/amp.urdf" />
+
+	<node name="$(arg ns)" pkg="hstar_amp" type="mecanum_base.py" output="screen" respawn="false"/> 
+	
+	<group ns="$(arg ns)">
+		<node name="odom" pkg="hstar_amp" type="mecanum_odometry.py" output="screen" respawn="false"/> 
+
+		<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen" respawn="false"/>
+
+		<node name="lcd_panel" pkg="hstar_amp" type="lcd_panel.py" output="screen" respawn="false"/> 
+
+	
+		<node name="urg_node" pkg="urg_node" type="urg_node" output="screen" ns="hokuyo/front_right" respawn="false"> 
+			<param name="serial_port" value="/dev/ros/hokuyo/front_right"/>
+			<param name="frame_id" value="front_right_hokuyo"/>
+			<param name="calibrate_time" value="true"/>
+		</node>
+
+		<node name="urg_node" pkg="urg_node" type="urg_node" output="screen" ns="hokuyo/back_left" respawn="false"> 
+			<param name="serial_port" value="/dev/ros/hokuyo/back_left"/>
+			<param name="frame_id" value="back_left_hokuyo"/>
+			<param name="calibrate_time" value="true"/>
+		</node>
+	</group>
+
+	<node if="$(arg with_joy)" name="joy" pkg="joy" type="joy_node" output="screen"> 
+		<param name="dev" value="/dev/input/js0"/>
+		<param name="deadzone" value="0.08"/>
+		<param name="autorepeat_rate" value="10.0"/>
+		<param name="coalesce_interval" value="0.001"/>
+	</node>
+
+</launch>

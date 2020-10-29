@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="with_joy" default="false" />
+  <include file="$(find ebolabot_bringup)/launch/hstar_amp/drivers.launch">
+  	<arg name="with_joy" value="$(arg with_joy)"/>
+  </include>
+  <include file="$(find ebolabot_bringup)/launch/hands.launch" />
+ 
+</launch>

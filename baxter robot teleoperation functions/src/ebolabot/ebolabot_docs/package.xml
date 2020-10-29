@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>ebolabot_docs</name>
+  <version>1.0.0</version>
+  <description>
+    Ebolabot documentation.
+  </description>
+
+  <maintainer email="oakyildiz@wpi.edu">
+    Ozan Akyildiz
+  </maintainer>
+  <license>BSD</license>
+  <url type="repository">
+    http://solar-10.wpi.edu/hiro/ros_ws
+  </url>
+  <url type="bugtracker">
+        http://solar-10.wpi.edu/hiro/ros_ws/issues
+  </url>
+  <author>Ozan Akyildiz</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+
+  <export>
+    <metapackage/>
+  </export>
+
+</package>

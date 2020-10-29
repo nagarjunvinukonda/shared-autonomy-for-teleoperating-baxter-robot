@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+ <arg name="ebolabot_ns" default=""/>
+
+ <arg name="have_grippers" default="true"/>
+ <arg name="have_kinect" default="true"/>
+ <arg name="have_wristcams" default="true"/>
+
+ <param name="$(arg ebolabot_ns)robot_description" command="$(find xacro)/xacro.py '$(find ebolabot_description)/robots/ebolabot.urdf.xacro' robot_ns:=/ tf_prefix:=ebolabot/ robot_name:=ebolabot have_grippers:=$(arg have_grippers) have_wristcams:=$(arg have_wristcams) have_kinect:=$(arg have_kinect)" />
+</launch>

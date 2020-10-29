@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>ebolabot_system_configuration</name>
+  <version>0.5.0</version>
+  <description>System configuration files for the Ebolabot</description>
+
+  <author email="oakyildiz@wpi.edu">Ozan Akyildiz</author>
+  <maintainer email="oakyildiz@wpi.edu">Ozan Akyildiz</maintainer>
+
+  <license>BSD</license>
+
+  
+  <url type="repository">http://solar-10.wpi.edu/hiro/ros_ws</url>
+
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>catkin</run_depend>
+  
+
+
+
+  <export>
+  </export>
+</package>

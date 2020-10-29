@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find ebolabot_bringup)/launch/reflex/reflex_bilateral.launch" >
+  <arg name="side" value="left"/>
+  </include>
+  
+  <include file="$(find ebolabot_bringup)/launch/reflex/reflex_bilateral.launch" >
+  <arg name="side" value="right"/>
+  </include>
+</launch>

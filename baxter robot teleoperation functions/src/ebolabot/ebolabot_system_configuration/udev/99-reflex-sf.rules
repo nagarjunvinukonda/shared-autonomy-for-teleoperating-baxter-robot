@@ -1,0 +1,5 @@
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6015", MODE="0666", ATTRS{serial}=="DN01A7IZ", SYMLINK+="right_hand"
+
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6015", MODE="0666", ATTRS{serial}=="DN01A7JA", SYMLINK+="left_hand"
+
+

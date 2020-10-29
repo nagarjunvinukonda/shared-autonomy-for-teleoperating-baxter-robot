@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+  <name>ebolabot_description</name>
+  <version>1.0.0</version>
+  <description>A URDF description of the Ebolabot</description>
+
+  <maintainer email="oakyildiz@wpi.edu">Ozan Akyildiz</maintainer>
+
+  <license>BSD</license>
+
+  
+  <url type="repository">http://solar-10.wpi.edu/hiro/ros_ws</url>
+
+  <author email="oakyildiz@wpi.edu">Ozan Akyildiz</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>xacro</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>rviz</run_depend>
+  
+  <run_depend>reflex_visualizer</run_depend>
+  <run_depend>hstar_amp</run_depend>
+  <run_depend>baxter_description</run_depend>
+
+
+  <export>
+  </export>
+</package>

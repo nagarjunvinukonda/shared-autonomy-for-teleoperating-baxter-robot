@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!-- Shelevd stand under the Baxter, rigth now just a box -->
+<robot name="stand" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:property name="height" value="0.47"/>
+<xacro:macro name="stand" params="parent output *origin">
+
+  <material name="grey">
+    <color rgba="0.35 0.35 0.35 1"/>
+  </material>
+
+  <material name="wood">
+    <color rgba="0.8 0.8 0.35 1"/>
+  </material>
+
+  <joint name="stand_joint" type="fixed">
+    <parent link="${parent}"/>
+    <child link="stand_base"/>
+    <xacro:insert_block name="origin" />
+  </joint>
+
+  <link name="stand_base">
+    <visual>
+      <geometry>
+           <box size="0.49 0.364 ${height}"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 ${height/2}"/>
+    <material name="grey"/>
+    </visual>
+  </link>
+
+  <joint name="stand_top" type="fixed">
+    <parent link="stand_base"/>
+    <child link="${output}"/>
+    <origin xyz="0 0 ${height}"/>
+  </joint>
+
+  <link name="${output}"/>
+
+</xacro:macro>
+
+</robot>

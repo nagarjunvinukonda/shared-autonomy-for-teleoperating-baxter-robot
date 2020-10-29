@@ -1,0 +1,1413 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+        - /RobotModel1
+        - /TF1
+        - /TF1/Tree1
+      Splitter Ratio: 0.513888896
+    Tree Height: 775
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.588679016
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Experimental: false
+    Name: Time
+    SyncMode: 0
+    SyncSource: ""
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.0299999993
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 0.949999988
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        back_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        back_left_hokuyo:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        back_right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        baxter_mount:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        collision_head_link_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        collision_head_link_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        display:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        dummyhead1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        front_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        front_right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        front_right_hokuyo:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        head:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        head_camera:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        kinect2_ir_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        kinect2_rgb_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_arm_itb:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        left_arm_mount:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        left_base_tactile:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        left_distal_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_distal_1_tactile:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        left_distal_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_distal_2_tactile:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        left_distal_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_distal_3_tactile:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        left_distal_pad_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_distal_pad_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_distal_pad_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[1]/flex_link[1]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[1]/flex_link[2]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[1]/flex_link[3]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[1]/flex_link[4]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[1]/flex_link[5]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[1]/flex_link[6]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[1]/flex_link[7]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[1]/flex_link[8]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[1]/flex_link[9]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[2]/flex_link[1]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[2]/flex_link[2]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[2]/flex_link[3]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[2]/flex_link[4]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[2]/flex_link[5]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[2]/flex_link[6]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[2]/flex_link[7]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[2]/flex_link[8]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[2]/flex_link[9]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[3]/flex_link[1]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[3]/flex_link[2]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[3]/flex_link[3]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[3]/flex_link[4]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[3]/flex_link[5]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[3]/flex_link[6]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[3]/flex_link[7]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[3]/flex_link[8]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_finger[3]/flex_link[9]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_hand:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_hand_accelerometer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_hand_base:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_hand_camera:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_hand_camera_axis:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        left_hand_range:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_lower_elbow:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_lower_forearm:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_lower_shoulder:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_pad:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_proximal_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_proximal_1_tactile:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        left_proximal_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_proximal_2_tactile:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        left_proximal_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_proximal_3_tactile:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        left_proximal_pad_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_proximal_pad_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_proximal_pad_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_swivel_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_swivel_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_torso_itb:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        left_upper_elbow:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_upper_elbow_visual:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_upper_forearm:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_upper_forearm_visual:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_upper_shoulder:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_wrist:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_arm_itb:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        right_arm_mount:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        right_base_tactile:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        right_distal_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_distal_1_tactile:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        right_distal_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_distal_2_tactile:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        right_distal_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_distal_3_tactile:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        right_distal_pad_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_distal_pad_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_distal_pad_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[1]/flex_link[1]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[1]/flex_link[2]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[1]/flex_link[3]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[1]/flex_link[4]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[1]/flex_link[5]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[1]/flex_link[6]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[1]/flex_link[7]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[1]/flex_link[8]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[1]/flex_link[9]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[2]/flex_link[1]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[2]/flex_link[2]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[2]/flex_link[3]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[2]/flex_link[4]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[2]/flex_link[5]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[2]/flex_link[6]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[2]/flex_link[7]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[2]/flex_link[8]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[2]/flex_link[9]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[3]/flex_link[1]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[3]/flex_link[2]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[3]/flex_link[3]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[3]/flex_link[4]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[3]/flex_link[5]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[3]/flex_link[6]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[3]/flex_link[7]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[3]/flex_link[8]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_finger[3]/flex_link[9]:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_hand:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_hand_accelerometer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_hand_base:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_hand_camera:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_hand_camera_axis:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        right_hand_range:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_lower_elbow:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_lower_forearm:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_lower_shoulder:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_pad:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_proximal_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_proximal_1_tactile:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        right_proximal_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_proximal_2_tactile:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        right_proximal_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_proximal_3_tactile:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        right_proximal_pad_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_proximal_pad_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_proximal_pad_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_swivel_1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_swivel_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_torso_itb:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        right_upper_elbow:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_upper_elbow_visual:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_upper_forearm:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_upper_forearm_visual:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_upper_shoulder:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_wrist:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        screen:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        sonar_ring:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        stand_base:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        torso:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      Robot Description: robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: false
+        back_left:
+          Value: false
+        back_left_hokuyo:
+          Value: false
+        back_right:
+          Value: false
+        base:
+          Value: true
+        base_link:
+          Value: true
+        baxter_mount:
+          Value: false
+        collision_head_link_1:
+          Value: false
+        collision_head_link_2:
+          Value: false
+        display:
+          Value: false
+        dummyhead1:
+          Value: false
+        front_left:
+          Value: false
+        front_right:
+          Value: false
+        front_right_hokuyo:
+          Value: false
+        head:
+          Value: true
+        head_camera:
+          Value: false
+        kinect2_ir_optical_frame:
+          Value: false
+        kinect2_rgb_optical_frame:
+          Value: false
+        left_arm_itb:
+          Value: false
+        left_arm_mount:
+          Value: false
+        left_base_tactile:
+          Value: false
+        left_distal_1:
+          Value: false
+        left_distal_1_tactile:
+          Value: false
+        left_distal_2:
+          Value: false
+        left_distal_2_tactile:
+          Value: false
+        left_distal_3:
+          Value: false
+        left_distal_3_tactile:
+          Value: false
+        left_distal_pad_1:
+          Value: false
+        left_distal_pad_2:
+          Value: false
+        left_distal_pad_3:
+          Value: false
+        left_finger[1]/flex_link[1]:
+          Value: false
+        left_finger[1]/flex_link[2]:
+          Value: false
+        left_finger[1]/flex_link[3]:
+          Value: false
+        left_finger[1]/flex_link[4]:
+          Value: false
+        left_finger[1]/flex_link[5]:
+          Value: false
+        left_finger[1]/flex_link[6]:
+          Value: false
+        left_finger[1]/flex_link[7]:
+          Value: false
+        left_finger[1]/flex_link[8]:
+          Value: false
+        left_finger[1]/flex_link[9]:
+          Value: false
+        left_finger[2]/flex_link[1]:
+          Value: false
+        left_finger[2]/flex_link[2]:
+          Value: false
+        left_finger[2]/flex_link[3]:
+          Value: false
+        left_finger[2]/flex_link[4]:
+          Value: false
+        left_finger[2]/flex_link[5]:
+          Value: false
+        left_finger[2]/flex_link[6]:
+          Value: false
+        left_finger[2]/flex_link[7]:
+          Value: false
+        left_finger[2]/flex_link[8]:
+          Value: false
+        left_finger[2]/flex_link[9]:
+          Value: false
+        left_finger[3]/flex_link[1]:
+          Value: false
+        left_finger[3]/flex_link[2]:
+          Value: false
+        left_finger[3]/flex_link[3]:
+          Value: false
+        left_finger[3]/flex_link[4]:
+          Value: false
+        left_finger[3]/flex_link[5]:
+          Value: false
+        left_finger[3]/flex_link[6]:
+          Value: false
+        left_finger[3]/flex_link[7]:
+          Value: false
+        left_finger[3]/flex_link[8]:
+          Value: false
+        left_finger[3]/flex_link[9]:
+          Value: false
+        left_hand:
+          Value: true
+        left_hand_accelerometer:
+          Value: false
+        left_hand_base:
+          Value: false
+        left_hand_camera:
+          Value: false
+        left_hand_camera_axis:
+          Value: false
+        left_hand_range:
+          Value: false
+        left_lower_elbow:
+          Value: false
+        left_lower_forearm:
+          Value: false
+        left_lower_shoulder:
+          Value: false
+        left_pad:
+          Value: false
+        left_proximal_1:
+          Value: false
+        left_proximal_1_tactile:
+          Value: false
+        left_proximal_2:
+          Value: false
+        left_proximal_2_tactile:
+          Value: false
+        left_proximal_3:
+          Value: false
+        left_proximal_3_tactile:
+          Value: false
+        left_proximal_pad_1:
+          Value: false
+        left_proximal_pad_2:
+          Value: false
+        left_proximal_pad_3:
+          Value: false
+        left_swivel_1:
+          Value: false
+        left_swivel_2:
+          Value: false
+        left_torso_itb:
+          Value: false
+        left_upper_elbow:
+          Value: false
+        left_upper_elbow_visual:
+          Value: false
+        left_upper_forearm:
+          Value: false
+        left_upper_forearm_visual:
+          Value: false
+        left_upper_shoulder:
+          Value: false
+        left_wrist:
+          Value: false
+        right_arm_itb:
+          Value: false
+        right_arm_mount:
+          Value: false
+        right_base_tactile:
+          Value: false
+        right_distal_1:
+          Value: false
+        right_distal_1_tactile:
+          Value: false
+        right_distal_2:
+          Value: false
+        right_distal_2_tactile:
+          Value: false
+        right_distal_3:
+          Value: false
+        right_distal_3_tactile:
+          Value: false
+        right_distal_pad_1:
+          Value: false
+        right_distal_pad_2:
+          Value: false
+        right_distal_pad_3:
+          Value: false
+        right_finger[1]/flex_link[1]:
+          Value: false
+        right_finger[1]/flex_link[2]:
+          Value: false
+        right_finger[1]/flex_link[3]:
+          Value: false
+        right_finger[1]/flex_link[4]:
+          Value: false
+        right_finger[1]/flex_link[5]:
+          Value: false
+        right_finger[1]/flex_link[6]:
+          Value: false
+        right_finger[1]/flex_link[7]:
+          Value: false
+        right_finger[1]/flex_link[8]:
+          Value: false
+        right_finger[1]/flex_link[9]:
+          Value: false
+        right_finger[2]/flex_link[1]:
+          Value: false
+        right_finger[2]/flex_link[2]:
+          Value: false
+        right_finger[2]/flex_link[3]:
+          Value: false
+        right_finger[2]/flex_link[4]:
+          Value: false
+        right_finger[2]/flex_link[5]:
+          Value: false
+        right_finger[2]/flex_link[6]:
+          Value: false
+        right_finger[2]/flex_link[7]:
+          Value: false
+        right_finger[2]/flex_link[8]:
+          Value: false
+        right_finger[2]/flex_link[9]:
+          Value: false
+        right_finger[3]/flex_link[1]:
+          Value: false
+        right_finger[3]/flex_link[2]:
+          Value: false
+        right_finger[3]/flex_link[3]:
+          Value: false
+        right_finger[3]/flex_link[4]:
+          Value: false
+        right_finger[3]/flex_link[5]:
+          Value: false
+        right_finger[3]/flex_link[6]:
+          Value: false
+        right_finger[3]/flex_link[7]:
+          Value: false
+        right_finger[3]/flex_link[8]:
+          Value: false
+        right_finger[3]/flex_link[9]:
+          Value: false
+        right_hand:
+          Value: true
+        right_hand_accelerometer:
+          Value: false
+        right_hand_base:
+          Value: false
+        right_hand_camera:
+          Value: false
+        right_hand_camera_axis:
+          Value: false
+        right_hand_range:
+          Value: false
+        right_lower_elbow:
+          Value: false
+        right_lower_forearm:
+          Value: false
+        right_lower_shoulder:
+          Value: false
+        right_pad:
+          Value: false
+        right_proximal_1:
+          Value: false
+        right_proximal_1_tactile:
+          Value: false
+        right_proximal_2:
+          Value: false
+        right_proximal_2_tactile:
+          Value: false
+        right_proximal_3:
+          Value: false
+        right_proximal_3_tactile:
+          Value: false
+        right_proximal_pad_1:
+          Value: false
+        right_proximal_pad_2:
+          Value: false
+        right_proximal_pad_3:
+          Value: false
+        right_swivel_1:
+          Value: false
+        right_swivel_2:
+          Value: false
+        right_torso_itb:
+          Value: false
+        right_upper_elbow:
+          Value: false
+        right_upper_elbow_visual:
+          Value: false
+        right_upper_forearm:
+          Value: false
+        right_upper_forearm_visual:
+          Value: false
+        right_upper_shoulder:
+          Value: false
+        right_wrist:
+          Value: false
+        screen:
+          Value: false
+        sonar_ring:
+          Value: false
+        stand_base:
+          Value: false
+        torso:
+          Value: true
+      Marker Scale: 0.300000012
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        base_link:
+          back_left:
+            {}
+          back_left_hokuyo:
+            {}
+          back_right:
+            {}
+          front_left:
+            {}
+          front_right:
+            {}
+          front_right_hokuyo:
+            {}
+          stand_base:
+            baxter_mount:
+              base:
+                collision_head_link_1:
+                  {}
+                collision_head_link_2:
+                  {}
+                torso:
+                  head:
+                    dummyhead1:
+                      {}
+                    head_camera:
+                      {}
+                    screen:
+                      display:
+                        {}
+                  kinect2_rgb_optical_frame:
+                    kinect2_ir_optical_frame:
+                      {}
+                  left_arm_mount:
+                    left_upper_shoulder:
+                      left_lower_shoulder:
+                        left_upper_elbow:
+                          left_lower_elbow:
+                            left_upper_forearm:
+                              left_arm_itb:
+                                {}
+                              left_lower_forearm:
+                                left_wrist:
+                                  left_hand:
+                                    left_hand_accelerometer:
+                                      {}
+                                    left_hand_base:
+                                      left_base_tactile:
+                                        {}
+                                      left_pad:
+                                        {}
+                                      left_proximal_3:
+                                        left_finger[3]/flex_link[1]:
+                                          left_finger[3]/flex_link[2]:
+                                            left_finger[3]/flex_link[3]:
+                                              left_finger[3]/flex_link[4]:
+                                                left_finger[3]/flex_link[5]:
+                                                  left_finger[3]/flex_link[6]:
+                                                    left_finger[3]/flex_link[7]:
+                                                      left_finger[3]/flex_link[8]:
+                                                        left_finger[3]/flex_link[9]:
+                                                          left_distal_3:
+                                                            left_distal_3_tactile:
+                                                              {}
+                                                            left_distal_pad_3:
+                                                              {}
+                                        left_proximal_3_tactile:
+                                          {}
+                                        left_proximal_pad_3:
+                                          {}
+                                      left_swivel_1:
+                                        left_proximal_1:
+                                          left_finger[1]/flex_link[1]:
+                                            left_finger[1]/flex_link[2]:
+                                              left_finger[1]/flex_link[3]:
+                                                left_finger[1]/flex_link[4]:
+                                                  left_finger[1]/flex_link[5]:
+                                                    left_finger[1]/flex_link[6]:
+                                                      left_finger[1]/flex_link[7]:
+                                                        left_finger[1]/flex_link[8]:
+                                                          left_finger[1]/flex_link[9]:
+                                                            left_distal_1:
+                                                              left_distal_1_tactile:
+                                                                {}
+                                                              left_distal_pad_1:
+                                                                {}
+                                          left_proximal_1_tactile:
+                                            {}
+                                          left_proximal_pad_1:
+                                            {}
+                                      left_swivel_2:
+                                        left_proximal_2:
+                                          left_finger[2]/flex_link[1]:
+                                            left_finger[2]/flex_link[2]:
+                                              left_finger[2]/flex_link[3]:
+                                                left_finger[2]/flex_link[4]:
+                                                  left_finger[2]/flex_link[5]:
+                                                    left_finger[2]/flex_link[6]:
+                                                      left_finger[2]/flex_link[7]:
+                                                        left_finger[2]/flex_link[8]:
+                                                          left_finger[2]/flex_link[9]:
+                                                            left_distal_2:
+                                                              left_distal_2_tactile:
+                                                                {}
+                                                              left_distal_pad_2:
+                                                                {}
+                                          left_proximal_2_tactile:
+                                            {}
+                                          left_proximal_pad_2:
+                                            {}
+                                    left_hand_camera:
+                                      {}
+                                    left_hand_camera_axis:
+                                      {}
+                                    left_hand_range:
+                                      {}
+                            left_upper_forearm_visual:
+                              {}
+                        left_upper_elbow_visual:
+                          {}
+                  left_torso_itb:
+                    {}
+                  right_arm_mount:
+                    right_upper_shoulder:
+                      right_lower_shoulder:
+                        right_upper_elbow:
+                          right_lower_elbow:
+                            right_upper_forearm:
+                              right_arm_itb:
+                                {}
+                              right_lower_forearm:
+                                right_wrist:
+                                  right_hand:
+                                    right_hand_accelerometer:
+                                      {}
+                                    right_hand_base:
+                                      right_base_tactile:
+                                        {}
+                                      right_pad:
+                                        {}
+                                      right_proximal_3:
+                                        right_finger[3]/flex_link[1]:
+                                          right_finger[3]/flex_link[2]:
+                                            right_finger[3]/flex_link[3]:
+                                              right_finger[3]/flex_link[4]:
+                                                right_finger[3]/flex_link[5]:
+                                                  right_finger[3]/flex_link[6]:
+                                                    right_finger[3]/flex_link[7]:
+                                                      right_finger[3]/flex_link[8]:
+                                                        right_finger[3]/flex_link[9]:
+                                                          right_distal_3:
+                                                            right_distal_3_tactile:
+                                                              {}
+                                                            right_distal_pad_3:
+                                                              {}
+                                        right_proximal_3_tactile:
+                                          {}
+                                        right_proximal_pad_3:
+                                          {}
+                                      right_swivel_1:
+                                        right_proximal_1:
+                                          right_finger[1]/flex_link[1]:
+                                            right_finger[1]/flex_link[2]:
+                                              right_finger[1]/flex_link[3]:
+                                                right_finger[1]/flex_link[4]:
+                                                  right_finger[1]/flex_link[5]:
+                                                    right_finger[1]/flex_link[6]:
+                                                      right_finger[1]/flex_link[7]:
+                                                        right_finger[1]/flex_link[8]:
+                                                          right_finger[1]/flex_link[9]:
+                                                            right_distal_1:
+                                                              right_distal_1_tactile:
+                                                                {}
+                                                              right_distal_pad_1:
+                                                                {}
+                                          right_proximal_1_tactile:
+                                            {}
+                                          right_proximal_pad_1:
+                                            {}
+                                      right_swivel_2:
+                                        right_proximal_2:
+                                          right_finger[2]/flex_link[1]:
+                                            right_finger[2]/flex_link[2]:
+                                              right_finger[2]/flex_link[3]:
+                                                right_finger[2]/flex_link[4]:
+                                                  right_finger[2]/flex_link[5]:
+                                                    right_finger[2]/flex_link[6]:
+                                                      right_finger[2]/flex_link[7]:
+                                                        right_finger[2]/flex_link[8]:
+                                                          right_finger[2]/flex_link[9]:
+                                                            right_distal_2:
+                                                              right_distal_2_tactile:
+                                                                {}
+                                                              right_distal_pad_2:
+                                                                {}
+                                          right_proximal_2_tactile:
+                                            {}
+                                          right_proximal_pad_2:
+                                            {}
+                                    right_hand_camera:
+                                      {}
+                                    right_hand_camera_axis:
+                                      {}
+                                    right_hand_range:
+                                      {}
+                            right_upper_forearm_visual:
+                              {}
+                        right_upper_elbow_visual:
+                          {}
+                  right_torso_itb:
+                    {}
+                  sonar_ring:
+                    {}
+      Update Interval: 0
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Default Light: true
+    Fixed Frame: base_link
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Topic: /initialpose
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 5.99695396
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.0599999987
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
+      Focal Shape Fixed Size: false
+      Focal Shape Size: 0.0500000007
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.00999999978
+      Pitch: 0.2903983
+      Target Frame: torso
+      Value: Orbit (rviz)
+      Yaw: 5.20358467
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1056
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd00000004000000000000016a00000396fc0200000008fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000006100fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000002ad00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000002800000396000000d700fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000010f00000396fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073010000002800000396000000ad00fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000007430000003efc0100000002fb0000000800540069006d00650100000000000007430000030000fffffffb0000000800540069006d00650100000000000004500000000000000000000004be0000039600000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 1859
+  X: 61
+  Y: 709

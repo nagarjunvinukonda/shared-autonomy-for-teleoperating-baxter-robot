@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+  <name>ebolabot</name>
+  <version>2.0.0</version>
+  <description>
+    URDF, meshes, and custom messages describing the Baxter Research
+    Robot from Rethink Robotics.
+  </description>
+  
+  <author email="kris.hauser@duke.edu">Kris Hauser</author>
+  <author email="oakyildiz@wpi.edu">Ozan Akyildiz</author>
+  <maintainer email="oakyildiz@wpi.edu">Ozan Akyildiz</maintainer>
+  
+  <license>BSD</license>
+  <url type="website">http://sdk.rethinkrobotics.com</url>
+  <url type="repository">
+    http://solar-10.wpi.edu/hiro/ros_ws
+  </url>
+  <url type="bugtracker">
+        http://solar-10.wpi.edu/hiro/ros_ws/issues
+  </url>
+  <author>Ozan Akyildiz</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>ebolabot_description</run_depend>
+  <run_depend>ebolabot_bringup</run_depend>
+  <run_depend>ebolabot_system_configuration</run_depend>
+  <run_depend>ebolabot_hstar_amp</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+
+</package>

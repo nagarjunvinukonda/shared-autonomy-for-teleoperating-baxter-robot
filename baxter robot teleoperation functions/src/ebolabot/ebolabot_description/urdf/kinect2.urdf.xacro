@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!-- This is a hand-made URDF XACRO file for the Microsoft Kinect-2 sensor (Xbox ONE) -->
+<!-- Copyright Universitaet Bremen - Instititute for Artificial Intelligence. Author: Alexis Maldonado -->
+<!-- License: GPLv3+ -->
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="kinect2">
+
+  <xacro:macro name="kinect2_xacro" params="prefix='' parent *origin">
+
+    <material name="Kinect2Grey">
+      <color rgba="0.15 0.15 0.15 1.0"/>
+    </material>
+
+
+    <!-- Joint connecting the parent to our frame_in -->
+    <joint name="${prefix}to_kinect2" type="fixed">
+      <xacro:insert_block name="origin"/>
+      <parent link="${parent}"/>
+      <child link="${prefix}kinect2_rgb_optical_frame"/>
+    </joint>
+
+    <link name="${prefix}kinect2_rgb_optical_frame">
+      <visual>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <geometry>
+          <!-- these meshes were exported in mm, so scale back to m -->
+          <mesh filename="package://ebolabot_description/meshes/kinect2_origin_on_rgb_optical_frame.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="Kinect2Grey"/>
+      </visual>
+
+      <collision>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <geometry>
+          <mesh
+            filename="package://ebolabot_description/meshes/kinect2_origin_on_rgb_optical_frame.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="${prefix}kinect2_rgb_to_ir" type="fixed">
+      <origin rpy="0 0 0" xyz="-0.052 0.000 0.003"/>
+      <parent link="${prefix}kinect2_rgb_optical_frame"/>
+      <child link="${prefix}kinect2_ir_optical_frame"/>
+    </joint>
+
+    <link name="${prefix}kinect2_ir_optical_frame"/>
+
+  </xacro:macro>
+</robot>

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/trevor/ros_ws/devel_isolated/dynamixel_msgs/setup.sh

@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<robot name="ebolabot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!--xacro:include filename="$(find baxter_description)/urdf/baxter_base/baxter_base.urdf.xacro"/-->
+  <xacro:include filename="$(find hstar_amp)/robot_description/amp.urdf.xacro"/>
+  <!-- <xacro:include filename="$(find ebolabot_description)/urdf/kinect2.urdf.xacro"/> -->
+  <xacro:include filename="$(find ebolabot_description)/urdf/stand.urdf.xacro"/>
+  <xacro:include filename="$(find reflex_visualizer)/urdf/full_reflex_model.urdf.xacro">
+    <xacro:arg name="attached" value="true"/>
+  </xacro:include>
+  <xacro:include filename="$(find ebolabot_description)/urdf/kinect2.urdf.xacro"/>
+
+
+
+  <xacro:property name="tf_prefix" value="$(arg tf_prefix)" />
+  <xacro:property name="robot_ns" value="/" />
+<!-- make these args with defaults -->
+  <xacro:property name="stand_mount" value="baxter_mount" />
+  <xacro:property name="amp_ns" value="" />
+
+
+  <!-- Attach frames -->
+<!-- tf_prefix="${tf_prefix}" robot_ns="${robot_ns}" -->
+  <xacro:amp_wpi base_ns="${amp_ns}"/>
+  <!--xacro:baxter /-->
+  <xacro:stand parent="${amp_ns}base_link" output="${stand_mount}">
+    <origin xyz="0 0 0.17 "/>
+  </xacro:stand>
+
+  <joint name="stand_to_baxter" type="fixed" >
+    <origin rpy="0 0 ${-pi/2}" xyz="0 0 0.06"/>
+    <parent link="${stand_mount}" />
+    <child link="base" />
+  </joint>
+  <xacro:include filename="$(find baxter_description)/urdf/baxter_base/baxter_base.urdf.xacro"/>
+
+  <xacro:if value="$(arg have_kinect)">
+    <xacro:kinect2_xacro  parent="torso">
+      <origin rpy="-${5.6*pi/9} 0 ${-pi/2}" xyz="0.228665 -0.104 0.55"/>
+    </xacro:kinect2_xacro>
+  </xacro:if>
+
+  <xacro:if value="$(arg have_grippers)">
+    <xacro:reflex_xacro  parent="left_hand" tf_prefix="left_">
+      <origin rpy="0 0 ${pi/2}" xyz="0 0 0"/>
+    </xacro:reflex_xacro>
+
+    <xacro:reflex_xacro  parent="right_hand" tf_prefix="right_">
+      <origin rpy="0 0 ${-pi/2}" xyz="0 0 0"/>
+    </xacro:reflex_xacro>
+
+  </xacro:if>
+
+
+  <!--<xacro:if value="$(arg have_wristcams)">
+    <xacro:kinect2_xacro parent="${tf_prefix}base_link" />
+  </xacro:if> -->
+
+</robot>

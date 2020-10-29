@@ -1,0 +1,15 @@
+[Unit]
+Description=Start up AMP ROS driver nodes
+Wants=network.target
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/user/ros_ws/src/ebolabot/ebolabot_hstar_amp/amp_bringup/amp.bash
+User=user
+Group=user
+LogLevel=debug
+
+[Install]
+WantedBy=basic.target
+
