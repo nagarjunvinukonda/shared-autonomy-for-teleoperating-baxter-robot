@@ -1,12 +1,12 @@
 build/
-devel/
-install/
-logs/
+#devel/
+#install/
+#logs/
 
 
 #development stuff
 
-dev/
+#dev/
 # src/dev/
 # src/navigation
 #src/pocketsphinx
@@ -56,9 +56,9 @@ srv/_*.py
 qtcreator-*
 *.user
 
-/planning/cfg
-/planning/docs
-/planning/src
+#/planning/cfg
+#/planning/docs
+#/planning/src
 
 *~
 
