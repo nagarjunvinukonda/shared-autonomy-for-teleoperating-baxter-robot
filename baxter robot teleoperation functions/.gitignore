@@ -5,17 +5,18 @@ logs/
 
 
 #development stuff
+
 dev/
-src/dev/
-src/navigation
-src/pocketsphinx
-src/dev
-src/baxter/baxter_pykdl
-src/ros_voice_control
-src/cibr*
-src/iai_kinect2
-src/ebolabot_tests
-src/ebolabot/ebolabot_docs
+# src/dev/
+# src/navigation
+#src/pocketsphinx
+#src/dev
+#src/baxter/baxter_pykdl
+#src/ros_voice_control
+#src/cibr*
+#src/iai_kinect2
+#src/ebolabot_tests
+#src/ebolabot/ebolabot_docs
 
 
 bin/
